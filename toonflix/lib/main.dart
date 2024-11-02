@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:toonflix/screens/api_service.dart';
+import 'package:toonflix/screens/home_screen.dart';
 
 void main() {
   runApp(const App());
@@ -11,10 +13,8 @@ class App extends StatelessWidget {
   Widget build(BuildContext context) {
     return const MaterialApp(
       home: Scaffold(
-        backgroundColor: Color(0xFF181818),
-        body: 
+        body: HomeScreen(),
       ),
     ); //materialapp cupertinoapp
   }
 }
-
